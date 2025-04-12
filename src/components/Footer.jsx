@@ -21,7 +21,7 @@ const contactInfo = [
     id: 2,
   },
   {
-    msg: "sardaralikhan99@outlook.com",
+    msg: "ssn.khan@outlook.com",
     icon: sms,
     id: 3,
   },
