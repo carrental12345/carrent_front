@@ -30,7 +30,7 @@ const WhyUs = () => {
       id: 4,
       image: messages,
       title: "24/7 Technical Support",
-      des: "Have a question? Contact RentCars support any time you have a problem.",
+      des: "Have a question? Contact our support any time you have a problem.",
     },
   ];
 

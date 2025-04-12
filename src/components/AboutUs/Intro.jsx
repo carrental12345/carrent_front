@@ -13,22 +13,6 @@ const Intro = () => {
             <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8">
              we are a taxi company working in Stockholm region. We make sure to provide you rides that are comfortable and on time.We aim to work  towards a sustainable green future.
             </p>
-
-            <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 md:mt-8">
-              <span className="relative inline-block">
-                <span className="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300 dark:bg-gray-900"></span>
-                <span className="relative px-1"> Have a question? </span>
-              </span>
-              <br className="block sm:hidden" />
-              Ask me on{" "}
-              <a
-                href="#"
-                title=""
-                className="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline"
-              >
-                Twitter
-              </a>
-            </p>
           </div>
 
           <div className="relative">
