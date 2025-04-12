@@ -13,7 +13,7 @@ const Working = () => {
 
       {/* Section Title */}
       <h1 className="font-bold text-4xl text-gray-900 mt-4">
-        Rent With These <span className="text-blue-700">3 Easy Steps</span>
+      Book your ride with <span className="text-blue-700">3 Easy Steps</span>
       </h1>
 
       {/* Steps Container */}

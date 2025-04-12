@@ -11,7 +11,7 @@ const ContactUs = () => {
         {
           title: "Email",
           icon: FaEnvelope,
-          info1: "sardaralikhan99@outlook.com",
+          info1: "ssn.khan@outlook.com",
         },
         {
           title: "Phone",

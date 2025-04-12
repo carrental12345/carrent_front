@@ -47,7 +47,7 @@ const Navbar = () => {
           //   filter:
           //     "brightness(0) saturate(100%) invert(31%) sepia(89%) saturate(714%) hue-rotate(194deg) brightness(96%) contrast(97%)",
           // }}
-          className="w-24"
+          className="w-34"
           alt="Logo"
         />
       </Link>

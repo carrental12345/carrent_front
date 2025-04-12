@@ -12,7 +12,7 @@ const WhyUs = () => {
       id: 1,
       image: wallet,
       title: "Best Price Guaranteed",
-      des: "Find a lower price? We'll refund you 100% of the difference.",
+      des: "We offer affordable prices on your bokings, we also offer different pakages for multiple bookings.",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const WhyUs = () => {
       id: 3,
       image: support,
       title: "24 Hour Car Delivery",
-      des: "Book your car anytime, and we will deliver it directly to you.",
+      des: "you can book us any time we offer pickup and drop offs at any time. book in advance or ring for urgent rides.",
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ const WhyUs = () => {
 
         {/* Title */}
         <h1 className="text-4xl font-bold text-gray-900 mt-4 leading-snug">
-          We Offer The <span className="text-blue-700">Best Experience</span> With Our Rental Deals
+        Experience our taxi  <span className="text-blue-700">services by booking</span> your ride with us.
         </h1>
 
         {/* Features in Two Columns */}
