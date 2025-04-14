@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const serviceApi = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://13.49.67.126/api/v1",
+    baseUrl: "https://car-rental-backend-vra8.onrender.com/api/v1",
     credentials: "include",
   }),
   tagTypes: ["Service"],
@@ -45,5 +45,5 @@ export const {
   useCreateServiceMutation,
   useGetAllServicesQuery,
   useUpdateServiceMutation,
-  useDeleteServiceMutation
+  useDeleteServiceMutation,
 } = serviceApi;

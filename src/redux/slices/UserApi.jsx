@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const userApi = createApi({
   reducerPath: "userApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://13.49.67.126/api/v1",
+    baseUrl: "https://car-rental-backend-vra8.onrender.com/api/v1",
     prepareHeaders: (headers, { getState }) => {
       const token = getState()?.user?.profile?.token;
       if (token) {
@@ -96,23 +96,22 @@ export const userApi = createApi({
         body: { email },
       }),
     }),
-    
+
     verifyOTP: builder.mutation({
-      query: ({email,otp}) => ({
+      query: ({ email, otp }) => ({
         url: "/verify-otp",
         method: "POST",
-        body: { email,otp },
+        body: { email, otp },
       }),
     }),
 
     resetPassword: builder.mutation({
-      query: ({email,password}) => ({
+      query: ({ email, password }) => ({
         url: "/reset-password",
         method: "PUT",
-        body: { email,password },
+        body: { email, password },
       }),
     }),
-
   }),
 });
 
@@ -128,5 +127,5 @@ export const {
   useUpdateUserRoleMutation,
   useForgotpasswordotpMutation,
   useVerifyOTPMutation,
-  useResetPasswordMutation
+  useResetPasswordMutation,
 } = userApi;

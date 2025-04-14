@@ -69,7 +69,9 @@ const Footer = () => {
         {/* Footer Links */}
         {footerSections.map((section, idx) => (
           <div key={idx}>
-            <h2 className="text-lg font-semibold mb-4 md:ms-10">{section.title}</h2>
+            <h2 className="text-lg font-semibold mb-4 md:ms-10">
+              {section.title}
+            </h2>
             <ul className="space-y-2">
               {section.links.map((link, i) =>
                 link.to === "#" ? (
