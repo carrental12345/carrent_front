@@ -22,7 +22,6 @@ const SIDEBAR_ITEMS = [
   { name: "Cars", icon: Car, color: "#8B5CF6", href: "/products" },
   { name: "Users", icon: Users, color: "#EC4899", href: "/users" },
   { name: "Sales", icon: DollarSign, color: "#10B981", href: "/sales" },
-  { name: "Orders", icon: ShoppingCart, color: "#F59E0B", href: "/orders" },
 ];
 
 const Sidebar = () => {
